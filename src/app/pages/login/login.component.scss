@@ -5,7 +5,7 @@
   float: left;
   background-image: url("../../../assets/background-login.png");
   background-color: var(--primary-color);
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
 }
@@ -54,7 +54,7 @@
   border: 1px solid #00000000;
   margin-bottom: 32px;
   transition: 0.3s linear all;
-  box-shadow: inset 1px 1px 2px #babecc80, inset -1px -1px 2px #d8d8d8b0;
+  box-shadow: inset 1px 1px 2px #babecc80, inset -1px -1px 2px #bebebeb0;
   &:focus {
     border: 1px solid var(--primary-color);
   }
@@ -64,5 +64,5 @@
   position: absolute;
   bottom: 4px;
   color: var(--primary-color);
-  font-size: 10px;  
+  font-size: 10px;
 }
